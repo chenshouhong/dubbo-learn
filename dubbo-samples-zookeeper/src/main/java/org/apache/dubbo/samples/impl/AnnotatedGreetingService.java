@@ -27,6 +27,7 @@ public class AnnotatedGreetingService implements GreetingService {
 
     public String sayHello(String name) {
         System.out.println("greeting service received: " + name);
+		System.out.println("greeting service received: " + name);
         return "hello, " + name;
     }
 
